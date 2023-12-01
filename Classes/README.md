@@ -1,3 +1,6 @@
+#Aggregation and composition
+[Aggregation and composition](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/aggregation) </br> ```Агрегация и композиция (Задания)```
+
 # The simplest classes and objects
 1. [Ex01](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/Ex1)</br>``` Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран и методы изменения этих
 переменных. Добавьте метод, который находит сумму значений этих переменных, и метод, который находит
@@ -46,7 +49,3 @@ Airline: пункт назначения, номер рейса, тип само
 a) список рейсов для заданного пункта назначения;
 b) список рейсов для заданного дня недели;
 c) список рейсов для заданного дня недели, время вылета для которых больше заданного.```</br>
-[Aggregation and composition](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/aggregation) </br> ```Агрегация и композиция (Задания)```
-
-
-
