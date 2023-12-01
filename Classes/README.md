@@ -1,7 +1,7 @@
-# Aggregation and composition
+## Aggregation and composition
 [Aggregation and composition](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/aggregation) </br> ```Агрегация и композиция (Задания)```
 
-# The simplest classes and objects
+## The simplest classes and objects
 1. [Ex01](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/Ex1)</br>``` Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран и методы изменения этих
 переменных. Добавьте метод, который находит сумму значений этих переменных, и метод, который находит
 наибольшее значение из этих двух переменных```
