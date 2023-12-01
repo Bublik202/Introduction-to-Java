@@ -1,4 +1,4 @@
-# Tasks (Aggregation and composition)
+## Tasks (Aggregation and composition)
 1. [Ex01](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/aggregation/ex1) </br> ```Создать объект класса Текст, используя классы Предложение, Слово. Методы: дополнить текст, вывести на
 консоль текст, заголовок текста```
 2. [Ex02](https://github.com/Bublik202/Introduction-to-Java/tree/main/Classes/aggregation/ex2) </br> ```Создать объект класса Автомобиль, используя классы Колесо, Двигатель. Методы: ехать, заправляться,
