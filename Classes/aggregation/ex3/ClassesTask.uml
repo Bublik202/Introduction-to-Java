@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_XZz0IIHyEe6hrKdSu0ktQQ" name="ClassesTask">
+    <eAnnotations xmi:id="_-m7T4IHyEe6hrKdSu0ktQQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-m7T4YHyEe6hrKdSu0ktQQ" source="codegen">
+        <details xmi:id="_-m7T4oHyEe6hrKdSu0ktQQ" key="codegenDirectory" value="/ClassesTask/src"/>
+        <details xmi:id="_AcYZoIHzEe6hrKdSu0ktQQ" key="AssociatedSourceCode" value="/ClassesTask/src/aggregation/ex3/CityEnum.java;2290605286/1;/ClassesTask/src/aggregation/ex3/DistrictEnum.java;4188736286/1;/ClassesTask/src/aggregation/ex3/RegionEnum.java;1587445491/1;/ClassesTask/src/aggregation/ex3/City.java;4229022214/1;/ClassesTask/src/aggregation/ex3/District.java;1520239396/1;/ClassesTask/src/aggregation/ex3/Government.java;1804429450/1;/ClassesTask/src/aggregation/ex3/Region.java;2842693063/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_-nsI4IHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_-nsI4YHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_-ntXAIHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_-ntXAYHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_-ntXAoHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_-ntXA4HyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_-ntXBIHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_-nt-EIHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_-nt-EYHyEe6hrKdSu0ktQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-mFmYIHyEe6hrKdSu0ktQQ" name="aggregation">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-mSasIHyEe6hrKdSu0ktQQ" name="ex3">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_-m6FwIHyEe6hrKdSu0ktQQ" name="CityEnum">
+          <ownedAttribute xmi:id="_-pTScIHyEe6hrKdSu0ktQQ" name="districtEnum" visibility="package" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+          <ownedOperation xmi:id="_-nvMMIHyEe6hrKdSu0ktQQ" name="getDistrictEnum" method="_-ph78IHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-pF3EIHyEe6hrKdSu0ktQQ" type="_-n2g8IHyEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-pFQAIHyEe6hrKdSu0ktQQ" name="CityEnum" visibility="private" method="_-pgt0IHyEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_-pFQAoHyEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_-pFQA4HyEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_-pFQAYHyEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_-pFQBIHyEe6hrKdSu0ktQQ" type="_-m6FwIHyEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-pF3EYHyEe6hrKdSu0ktQQ" name="setDistrictEnum" method="_-ph78oHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-pF3EoHyEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+          </ownedOperation>
+          <ownedLiteral xmi:id="_-m768IHyEe6hrKdSu0ktQQ" name="BREST">
+            <specification xmi:type="uml:Expression" xmi:id="_-m8iAIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pp3wIHyEe6hrKdSu0ktQQ" value="DistrictEnum.BREST"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m8iAYHyEe6hrKdSu0ktQQ" name="BARANAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m8iAoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pp3wYHyEe6hrKdSu0ktQQ" value="DistrictEnum.BARANAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m8iA4HyEe6hrKdSu0ktQQ" name="PINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-m8iBIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe0IHyEe6hrKdSu0ktQQ" value="DistrictEnum.PINSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m8iBYHyEe6hrKdSu0ktQQ" name="KOBRYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9JEIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe0YHyEe6hrKdSu0ktQQ" value="DistrictEnum.KOBRYN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9JEYHyEe6hrKdSu0ktQQ" name="BYAROZA">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9JEoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe0oHyEe6hrKdSu0ktQQ" value="DistrictEnum.BYAROZA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9JE4HyEe6hrKdSu0ktQQ" name="IVATSEVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9JFIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe04HyEe6hrKdSu0ktQQ" value="DistrictEnum.IVATSEVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9JFYHyEe6hrKdSu0ktQQ" name="LUNINYETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9JFoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe1IHyEe6hrKdSu0ktQQ" value="DistrictEnum.LUNINETS"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9wIIHyEe6hrKdSu0ktQQ" name="PRUZHANY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9wIYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe1YHyEe6hrKdSu0ktQQ" value="DistrictEnum.PRUZHANY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9wIoHyEe6hrKdSu0ktQQ" name="IVANAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9wI4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe1oHyEe6hrKdSu0ktQQ" value="DistrictEnum.IVANAVA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9wJIHyEe6hrKdSu0ktQQ" name="DRAHICHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-m9wJYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe14HyEe6hrKdSu0ktQQ" value="DistrictEnum.DRAHICHYN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m9wJoHyEe6hrKdSu0ktQQ" name="HANTSAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m-XMIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pqe2IHyEe6hrKdSu0ktQQ" value="DistrictEnum.HANTSAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m-XMYHyEe6hrKdSu0ktQQ" name="MIKASHEVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m-XMoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF4IHyEe6hrKdSu0ktQQ" value="DistrictEnum.LUNINETS"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m-XM4HyEe6hrKdSu0ktQQ" name="BYELAAZYORSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-m-XNIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF4YHyEe6hrKdSu0ktQQ" value="DistrictEnum.BYAROZA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m-XNYHyEe6hrKdSu0ktQQ" name="ZHABINKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-m--QIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF4oHyEe6hrKdSu0ktQQ" value="DistrictEnum.ZHABINKA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m--QYHyEe6hrKdSu0ktQQ" name="STOLIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-m--QoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF44HyEe6hrKdSu0ktQQ" value="DistrictEnum.STOLIN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m_lUIHyEe6hrKdSu0ktQQ" name="LYAKHAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-m_lUYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF5IHyEe6hrKdSu0ktQQ" value="DistrictEnum.LYAKHAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m_lUoHyEe6hrKdSu0ktQQ" name="MALARYTA">
+            <specification xmi:type="uml:Expression" xmi:id="_-m_lU4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF5YHyEe6hrKdSu0ktQQ" value="DistrictEnum.MALARYTA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-m_lVIHyEe6hrKdSu0ktQQ" name="KAMYANYETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-m_lVYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF5oHyEe6hrKdSu0ktQQ" value="DistrictEnum.KAMENETS"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nAMYIHyEe6hrKdSu0ktQQ" name="DAVYD_HARADOK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nAzcIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF54HyEe6hrKdSu0ktQQ" value="DistrictEnum.STOLIN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nAzcYHyEe6hrKdSu0ktQQ" name="VYSOKAYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-nAzcoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF6IHyEe6hrKdSu0ktQQ" value="DistrictEnum.KAMENETS"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nBagIHyEe6hrKdSu0ktQQ" name="KOSAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nBagYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prF6YHyEe6hrKdSu0ktQQ" value="DistrictEnum.IVATSEVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nBagoHyEe6hrKdSu0ktQQ" name="TAMAŠOŬKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nBag4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs8IHyEe6hrKdSu0ktQQ" value="DistrictEnum.BREST"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nBahIHyEe6hrKdSu0ktQQ" name="VITEBSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nBahYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs8YHyEe6hrKdSu0ktQQ" value="DistrictEnum.VITEBSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nCBkIHyEe6hrKdSu0ktQQ" name="ORSHA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nCBkYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs8oHyEe6hrKdSu0ktQQ" value="DistrictEnum.ORSHA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nCBkoHyEe6hrKdSu0ktQQ" name="NAVAPOLATSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nCBk4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs84HyEe6hrKdSu0ktQQ" value="DistrictEnum.POLOTSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nCooIHyEe6hrKdSu0ktQQ" name="POLOTSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nCooYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs9IHyEe6hrKdSu0ktQQ" value="DistrictEnum.POLOTSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nCoooHyEe6hrKdSu0ktQQ" name="PASTAVY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nCoo4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs9YHyEe6hrKdSu0ktQQ" value="DistrictEnum.PASTAVY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nCopIHyEe6hrKdSu0ktQQ" name="HLYBOKAYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-nCopYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-prs9oHyEe6hrKdSu0ktQQ" value="DistrictEnum.HLYBOKAYE"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nDPsIHyEe6hrKdSu0ktQQ" name="LEPEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-nDPsYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUAIHyEe6hrKdSu0ktQQ" value="DistrictEnum.LEPIEL"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nDPsoHyEe6hrKdSu0ktQQ" name="NOVALUKOML">
+            <specification xmi:type="uml:Expression" xmi:id="_-nD2wIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUAYHyEe6hrKdSu0ktQQ" value="DistrictEnum.CHASHNIKI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nD2wYHyEe6hrKdSu0ktQQ" name="HARADOK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nD2woHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUAoHyEe6hrKdSu0ktQQ" value="DistrictEnum.HARADOK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nD2w4HyEe6hrKdSu0ktQQ" name="BARAN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nD2xIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUA4HyEe6hrKdSu0ktQQ" value="DistrictEnum.ORSHA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nEd0IHyEe6hrKdSu0ktQQ" name="TAŁAČYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nEd0YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUBIHyEe6hrKdSu0ktQQ" value="DistrictEnum.TALACHYN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nEd0oHyEe6hrKdSu0ktQQ" name="BRASŁAŬ">
+            <specification xmi:type="uml:Expression" xmi:id="_-nEd04HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUBYHyEe6hrKdSu0ktQQ" value="DistrictEnum.BRASLAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nEd1IHyEe6hrKdSu0ktQQ" name="ČAŠNIKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nFE4IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUBoHyEe6hrKdSu0ktQQ" value="DistrictEnum.CHASHNIKI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nFE4YHyEe6hrKdSu0ktQQ" name="DUBROŬNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nFE4oHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-psUB4HyEe6hrKdSu0ktQQ" value="DistrictEnum.DUBROŬNA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nFE44HyEe6hrKdSu0ktQQ" name="MIORY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nGTAIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7EIHyEe6hrKdSu0ktQQ" value="DistrictEnum.MYORY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nGTAYHyEe6hrKdSu0ktQQ" name="SYANNO">
+            <specification xmi:type="uml:Expression" xmi:id="_-nG6EIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7EYHyEe6hrKdSu0ktQQ" value="DistrictEnum.SYANNO"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nG6EYHyEe6hrKdSu0ktQQ" name="BESHANKOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nG6EoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7EoHyEe6hrKdSu0ktQQ" value="DistrictEnum.BESHANKOVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nG6E4HyEe6hrKdSu0ktQQ" name="VERKHNYADZVINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nG6FIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7E4HyEe6hrKdSu0ktQQ" value="DistrictEnum.VERKHNYADZVINSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nHhIIHyEe6hrKdSu0ktQQ" name="DOKSHYTSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nHhIYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7FIHyEe6hrKdSu0ktQQ" value="DistrictEnum.DOKSHYTSY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nHhIoHyEe6hrKdSu0ktQQ" name="USHACHYU">
+            <specification xmi:type="uml:Expression" xmi:id="_-nHhI4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7FYHyEe6hrKdSu0ktQQ" value="DistrictEnum.USHACHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nHhJIHyEe6hrKdSu0ktQQ" name="DISNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nIIMIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7FoHyEe6hrKdSu0ktQQ" value="DistrictEnum.MYORY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nIIMYHyEe6hrKdSu0ktQQ" name="SURAŽ">
+            <specification xmi:type="uml:Expression" xmi:id="_-nIIMoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7F4HyEe6hrKdSu0ktQQ" value="DistrictEnum.VITEBSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nIIM4HyEe6hrKdSu0ktQQ" name="GOMEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-nIINIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7GIHyEe6hrKdSu0ktQQ" value="DistrictEnum.GOMEL"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nIvQIHyEe6hrKdSu0ktQQ" name="MAZYR">
+            <specification xmi:type="uml:Expression" xmi:id="_-nIvQYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7GYHyEe6hrKdSu0ktQQ" value="DistrictEnum.MAZYR"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nIvQoHyEe6hrKdSu0ktQQ" name="ZHLOBIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nIvQ4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7GoHyEe6hrKdSu0ktQQ" value="DistrictEnum.ZHLOBIN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nIvRIHyEe6hrKdSu0ktQQ" name="SVIETLAHORSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nJWUIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7G4HyEe6hrKdSu0ktQQ" value="DistrictEnum.SVIETLAHORSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nJWUYHyEe6hrKdSu0ktQQ" name="RECHYTSA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nJWUoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7HIHyEe6hrKdSu0ktQQ" value="DistrictEnum.RECHYTSA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nJ9YIHyEe6hrKdSu0ktQQ" name="KALINKAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nJ9YYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7HYHyEe6hrKdSu0ktQQ" value="DistrictEnum.KALINKAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nJ9YoHyEe6hrKdSu0ktQQ" name="RAHACHOW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nKkcIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7HoHyEe6hrKdSu0ktQQ" value="DistrictEnum.RAHACHOW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nKkcYHyEe6hrKdSu0ktQQ" name="DOBRUSH">
+            <specification xmi:type="uml:Expression" xmi:id="_-nKkcoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ps7H4HyEe6hrKdSu0ktQQ" value="DistrictEnum.DOBRUSH"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nKkc4HyEe6hrKdSu0ktQQ" name="ZHYTKAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nKkdIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiIIHyEe6hrKdSu0ktQQ" value="DistrictEnum.ZHYTKAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nKkdYHyEe6hrKdSu0ktQQ" name="KHOYNIKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nLLgIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiIYHyEe6hrKdSu0ktQQ" value="DistrictEnum.KHOINIKI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nLLgYHyEe6hrKdSu0ktQQ" name="PIETRYKAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nLLgoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiIoHyEe6hrKdSu0ktQQ" value="DistrictEnum.PIETRYKAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nLLg4HyEe6hrKdSu0ktQQ" name="YEL_SK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nLLhIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiI4HyEe6hrKdSu0ktQQ" value="DistrictEnum.YEL_SK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nLykIHyEe6hrKdSu0ktQQ" name="BUDA_KASHALYOVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nLykYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiJIHyEe6hrKdSu0ktQQ" value="DistrictEnum.BUDA_KASHALYOVA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nLykoHyEe6hrKdSu0ktQQ" name="NAROULIA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nMZoIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiJYHyEe6hrKdSu0ktQQ" value="DistrictEnum.NAROULIA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nMZoYHyEe6hrKdSu0ktQQ" name="VIETKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nMZooHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiJoHyEe6hrKdSu0ktQQ" value="DistrictEnum.VIETKA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nNAsIHyEe6hrKdSu0ktQQ" name="CHACHERSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nNAsYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiJ4HyEe6hrKdSu0ktQQ" value="DistrictEnum.CHACHERSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nNAsoHyEe6hrKdSu0ktQQ" name="VASILIEVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nNnwIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiKIHyEe6hrKdSu0ktQQ" value="DistrictEnum.RECHYTSA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nNnwYHyEe6hrKdSu0ktQQ" name="BRAHIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nNnwoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiKYHyEe6hrKdSu0ktQQ" value="DistrictEnum.BRAHIN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nNnw4HyEe6hrKdSu0ktQQ" name="TUROV">
+            <specification xmi:type="uml:Expression" xmi:id="_-nNnxIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiKoHyEe6hrKdSu0ktQQ" value="DistrictEnum.ZHYTKAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nNnxYHyEe6hrKdSu0ktQQ" name="GRODNO">
+            <specification xmi:type="uml:Expression" xmi:id="_-nNnxoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-ptiK4HyEe6hrKdSu0ktQQ" value="DistrictEnum.GRODNO"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nOO0IHyEe6hrKdSu0ktQQ" name="LIDA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nOO0YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJMIHyEe6hrKdSu0ktQQ" value="DistrictEnum.LIDA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nOO0oHyEe6hrKdSu0ktQQ" name="SLONIM">
+            <specification xmi:type="uml:Expression" xmi:id="_-nOO04HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJMYHyEe6hrKdSu0ktQQ" value="DistrictEnum.SLONIM"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nOO1IHyEe6hrKdSu0ktQQ" name="VAWKAVYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nOO1YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJMoHyEe6hrKdSu0ktQQ" value="DistrictEnum.VAWKAVYSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nO14IHyEe6hrKdSu0ktQQ" name="SMARHOŃ">
+            <specification xmi:type="uml:Expression" xmi:id="_-nO14YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJM4HyEe6hrKdSu0ktQQ" value="DistrictEnum.SMARHON"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nO14oHyEe6hrKdSu0ktQQ" name="NAVAHRUDAK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nO144HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJNIHyEe6hrKdSu0ktQQ" value="DistrictEnum.NAVAHRUDAK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nO15IHyEe6hrKdSu0ktQQ" name="ASHMYANY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nO15YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJNYHyEe6hrKdSu0ktQQ" value="DistrictEnum.ASHMYANY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nPc8IHyEe6hrKdSu0ktQQ" name="MASTY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nPc8YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJNoHyEe6hrKdSu0ktQQ" value="DistrictEnum.MASTY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nPc8oHyEe6hrKdSu0ktQQ" name="SHCHUCHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nPc84HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJN4HyEe6hrKdSu0ktQQ" value="DistrictEnum.SHCHUCHYN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nPc9IHyEe6hrKdSu0ktQQ" name="ASTRAVYETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-nPc9YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJOIHyEe6hrKdSu0ktQQ" value="DistrictEnum.ASTRAVYETS"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQEAIHyEe6hrKdSu0ktQQ" name="SKIDZIEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQEAYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJOYHyEe6hrKdSu0ktQQ" value="DistrictEnum.GRODNO"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQEAoHyEe6hrKdSu0ktQQ" name="BYAROZAWKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQEA4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJOoHyEe6hrKdSu0ktQQ" value="DistrictEnum.LIDA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQEBIHyEe6hrKdSu0ktQQ" name="IWYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQEBYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJO4HyEe6hrKdSu0ktQQ" value="DistrictEnum.IWYE"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQrEIHyEe6hrKdSu0ktQQ" name="DZIATLAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQrEYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puJPIHyEe6hrKdSu0ktQQ" value="DistrictEnum.DZYATLAVA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQrEoHyEe6hrKdSu0ktQQ" name="ZELVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQrE4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwQIHyEe6hrKdSu0ktQQ" value="DistrictEnum.ZELVA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nQrFIHyEe6hrKdSu0ktQQ" name="KRASNASELSKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nQrFYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwQYHyEe6hrKdSu0ktQQ" value="DistrictEnum.GRODNO"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nRSIIHyEe6hrKdSu0ktQQ" name="KARELICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nRSIYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwQoHyEe6hrKdSu0ktQQ" value="DistrictEnum.KARELICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nRSIoHyEe6hrKdSu0ktQQ" name="SVISLACH">
+            <specification xmi:type="uml:Expression" xmi:id="_-nRSI4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwQ4HyEe6hrKdSu0ktQQ" value="DistrictEnum.SVISLACH"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nRSJIHyEe6hrKdSu0ktQQ" name="VORANAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nR5MIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwRIHyEe6hrKdSu0ktQQ" value="DistrictEnum.VORANAVA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nR5MYHyEe6hrKdSu0ktQQ" name="VYALIKAYA_BYERASTAVITSA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nSgQIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwRYHyEe6hrKdSu0ktQQ" value="DistrictEnum.BYERASTAVITSA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nSgQYHyEe6hrKdSu0ktQQ" name="ROS">
+            <specification xmi:type="uml:Expression" xmi:id="_-nSgQoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwRoHyEe6hrKdSu0ktQQ" value="DistrictEnum.GRODNO"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nSgQ4HyEe6hrKdSu0ktQQ" name="BARYSAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nSgRIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwR4HyEe6hrKdSu0ktQQ" value="DistrictEnum.BARYSAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nTHUIHyEe6hrKdSu0ktQQ" name="SALIHORSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nTHUYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwSIHyEe6hrKdSu0ktQQ" value="DistrictEnum.SALIHORSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nTuYIHyEe6hrKdSu0ktQQ" name="MALADZYECHNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nUVcIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwSYHyEe6hrKdSu0ktQQ" value="DistrictEnum.MALADZYECHNA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nUVcYHyEe6hrKdSu0ktQQ" name="SLUTSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nUVcoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-puwSoHyEe6hrKdSu0ktQQ" value="DistrictEnum.SLUTSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nU8gIHyEe6hrKdSu0ktQQ" name="ZHODZINA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nU8gYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXUIHyEe6hrKdSu0ktQQ" value="DistrictEnum.SMALYAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nU8goHyEe6hrKdSu0ktQQ" name="VILEYKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nU8g4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXUYHyEe6hrKdSu0ktQQ" value="DistrictEnum.VILEYKA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nVjkIHyEe6hrKdSu0ktQQ" name="DZYARZHYNSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nVjkYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXUoHyEe6hrKdSu0ktQQ" value="DistrictEnum.DZYARZHYNSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nVjkoHyEe6hrKdSu0ktQQ" name="MARYINA_HORKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nVjk4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXU4HyEe6hrKdSu0ktQQ" value="DistrictEnum.PUCHAVIČY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nWxsIHyEe6hrKdSu0ktQQ" name="STOWBTSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nXYwIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXVIHyEe6hrKdSu0ktQQ" value="DistrictEnum.STOWBTSY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nX_0IHyEe6hrKdSu0ktQQ" name="NYASVIZH">
+            <specification xmi:type="uml:Expression" xmi:id="_-nYm4IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXVYHyEe6hrKdSu0ktQQ" value="DistrictEnum.NESVIZH"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nYm4YHyEe6hrKdSu0ktQQ" name="SMALYAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nZN8IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXVoHyEe6hrKdSu0ktQQ" value="DistrictEnum.SMALYAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nZN8YHyEe6hrKdSu0ktQQ" name="ZASLAWYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-nZN8oHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXV4HyEe6hrKdSu0ktQQ" value="DistrictEnum.MINSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nZ1AIHyEe6hrKdSu0ktQQ" name="FANIPAL">
+            <specification xmi:type="uml:Expression" xmi:id="_-nZ1AYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXWIHyEe6hrKdSu0ktQQ" value="DistrictEnum.DZYARZHYNSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nacEIHyEe6hrKdSu0ktQQ" name="BERAZINO">
+            <specification xmi:type="uml:Expression" xmi:id="_-nacEYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXWYHyEe6hrKdSu0ktQQ" value="DistrictEnum.MINSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nacEoHyEe6hrKdSu0ktQQ" name="LYUBAN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nbDIIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXWoHyEe6hrKdSu0ktQQ" value="DistrictEnum.LYUBAN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nbDIYHyEe6hrKdSu0ktQQ" name="STARYYA_DAROHI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nbDIoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXW4HyEe6hrKdSu0ktQQ" value="DistrictEnum.STARYYA_DAROHI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nbqMIHyEe6hrKdSu0ktQQ" name="VALOZHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nbqMYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXXIHyEe6hrKdSu0ktQQ" value="DistrictEnum.VALOZHYN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-ncRQIHyEe6hrKdSu0ktQQ" name="LAHOYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-ncRQYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXXYHyEe6hrKdSu0ktQQ" value="DistrictEnum.LAHOYSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nc4UIHyEe6hrKdSu0ktQQ" name="KAPYL">
+            <specification xmi:type="uml:Expression" xmi:id="_-nc4UYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pvXXoHyEe6hrKdSu0ktQQ" value="DistrictEnum.KAPYL"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nc4UoHyEe6hrKdSu0ktQQ" name="KLETSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nc4U4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-YIHyEe6hrKdSu0ktQQ" value="DistrictEnum.KLETSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-netgIHyEe6hrKdSu0ktQQ" name="CHERVYEN">
+            <specification xmi:type="uml:Expression" xmi:id="_-nfUkIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-YYHyEe6hrKdSu0ktQQ" value="DistrictEnum.CHERVYEN"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nfUkYHyEe6hrKdSu0ktQQ" name="UZDA">
+            <specification xmi:type="uml:Expression" xmi:id="_-nfUkoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-YoHyEe6hrKdSu0ktQQ" value="DistrictEnum.UZDA"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nf7oIHyEe6hrKdSu0ktQQ" name="KRUPKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nf7oYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-Y4HyEe6hrKdSu0ktQQ" value="DistrictEnum.KRUPKI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-ngisIHyEe6hrKdSu0ktQQ" name="MYADZYEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-ngisYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-ZIHyEe6hrKdSu0ktQQ" value="DistrictEnum.MYADZYEL"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nhJwIHyEe6hrKdSu0ktQQ" name="MINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-nhJwYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-ZYHyEe6hrKdSu0ktQQ" value="DistrictEnum.MINSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nhw0IHyEe6hrKdSu0ktQQ" name="MOGILEV">
+            <specification xmi:type="uml:Expression" xmi:id="_-nhw0YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-ZoHyEe6hrKdSu0ktQQ" value="DistrictEnum.MOGILEV"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nhw0oHyEe6hrKdSu0ktQQ" name="BABRUYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-niX4IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-Z4HyEe6hrKdSu0ktQQ" value="DistrictEnum.BABRUYSK"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-niX4YHyEe6hrKdSu0ktQQ" name="ASIPOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-ni-8IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-aIHyEe6hrKdSu0ktQQ" value="DistrictEnum.ASIPOVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-njmAIHyEe6hrKdSu0ktQQ" name="HORKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-nkNEIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-aYHyEe6hrKdSu0ktQQ" value="DistrictEnum.HORKI"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nkNEYHyEe6hrKdSu0ktQQ" name="KRYCHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nkNEoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-aoHyEe6hrKdSu0ktQQ" value="DistrictEnum.KRYCHAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nlbMIHyEe6hrKdSu0ktQQ" name="BYKHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nmCQIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-a4HyEe6hrKdSu0ktQQ" value="DistrictEnum.BYKHAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nmpUIHyEe6hrKdSu0ktQQ" name="KASTSYUKOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nmpUYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-bIHyEe6hrKdSu0ktQQ" value="DistrictEnum.KASTSYUKOVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nnQYIHyEe6hrKdSu0ktQQ" name="KLIMAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-nnQYYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-bYHyEe6hrKdSu0ktQQ" value="DistrictEnum.KLIMAVICHY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nnQYoHyEe6hrKdSu0ktQQ" name="SHKLOW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nnQY4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pv-boHyEe6hrKdSu0ktQQ" value="DistrictEnum.SHKLOW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-npFkIHyEe6hrKdSu0ktQQ" name="MSTSISLAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-npsoIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwlcIHyEe6hrKdSu0ktQQ" value="DistrictEnum.MSTSISLAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-npsoYHyEe6hrKdSu0ktQQ" name="CHAVUSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-npsooHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwlcYHyEe6hrKdSu0ktQQ" value="DistrictEnum.CHAVUSY"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nqTsIHyEe6hrKdSu0ktQQ" name="CHERYKAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nqTsYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwlcoHyEe6hrKdSu0ktQQ" value="DistrictEnum.CHERYKAW"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nqTsoHyEe6hrKdSu0ktQQ" name="SLAWHARAD">
+            <specification xmi:type="uml:Expression" xmi:id="_-nqTs4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwlc4HyEe6hrKdSu0ktQQ" value="DistrictEnum.SLAWHARAD"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-nq6wIHyEe6hrKdSu0ktQQ" name="KLICHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-nq6wYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwldIHyEe6hrKdSu0ktQQ" value="DistrictEnum.KLICHAW"/>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_-n2g8IHyEe6hrKdSu0ktQQ" name="DistrictEnum">
+          <ownedAttribute xmi:id="_-paAIIHyEe6hrKdSu0ktQQ" name="regionEnum" visibility="package" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+          <ownedOperation xmi:id="_-oeMAIHyEe6hrKdSu0ktQQ" name="getRegionEnum" method="_-pk_QoHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-pKIg4HyEe6hrKdSu0ktQQ" type="_-omu4IHyEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-pJhcIHyEe6hrKdSu0ktQQ" name="DistrictEnum" visibility="private" method="_-pkYMIHyEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_-pKIgIHyEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_-pKIgYHyEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_-pJhcYHyEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_-pKIgoHyEe6hrKdSu0ktQQ" type="_-n2g8IHyEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-pKvkIHyEe6hrKdSu0ktQQ" name="setRegionEnum" method="_-pk_RIHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-pKvkYHyEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+          </ownedOperation>
+          <ownedLiteral xmi:id="_-n3IAIHyEe6hrKdSu0ktQQ" name="BARANAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n3vEIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwldYHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n3vEYHyEe6hrKdSu0ktQQ" name="BREST">
+            <specification xmi:type="uml:Expression" xmi:id="_-n3vEoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pwldoHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n3vE4HyEe6hrKdSu0ktQQ" name="BYAROZA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n3vFIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMgIHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n3vFYHyEe6hrKdSu0ktQQ" name="DRAHICHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-n3vFoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMgYHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n4WIIHyEe6hrKdSu0ktQQ" name="HANTSAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n4WIYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMgoHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n4WIoHyEe6hrKdSu0ktQQ" name="IVANAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n4WI4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMg4HyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n4WJIHyEe6hrKdSu0ktQQ" name="IVATSEVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n4WJYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMhIHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n4WJoHyEe6hrKdSu0ktQQ" name="KAMENETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-n4WJ4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMhYHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n4WKIHyEe6hrKdSu0ktQQ" name="KOBRYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-n49MIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMhoHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n49MYHyEe6hrKdSu0ktQQ" name="LUNINETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-n49MoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMh4HyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n49M4HyEe6hrKdSu0ktQQ" name="LYAKHAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n49NIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMiIHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n49NYHyEe6hrKdSu0ktQQ" name="MALARYTA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n5kQIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMiYHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n5kQYHyEe6hrKdSu0ktQQ" name="PINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-n5kQoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMioHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n5kQ4HyEe6hrKdSu0ktQQ" name="PRUZHANY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n5kRIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxMi4HyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6LUIHyEe6hrKdSu0ktQQ" name="STOLIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-n6LUYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzkIHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6LUoHyEe6hrKdSu0ktQQ" name="ZHABINKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n6LU4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzkYHyEe6hrKdSu0ktQQ" value="RegionEnum.BREST_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6LVIHyEe6hrKdSu0ktQQ" name="BESHANKOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n6LVYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzkoHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6yYIHyEe6hrKdSu0ktQQ" name="BRASLAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-n6yYYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzk4HyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6yYoHyEe6hrKdSu0ktQQ" name="CHASHNIKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-n6yY4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzlIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n6yZIHyEe6hrKdSu0ktQQ" name="DOKSHYTSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n7ZcIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzlYHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n7ZcYHyEe6hrKdSu0ktQQ" name="DUBROŬNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n7ZcoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzloHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n7Zc4HyEe6hrKdSu0ktQQ" name="HARADOK">
+            <specification xmi:type="uml:Expression" xmi:id="_-n7ZdIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzl4HyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n7ZdYHyEe6hrKdSu0ktQQ" name="HLYBOKAYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-n8AgIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzmIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n8AgYHyEe6hrKdSu0ktQQ" name="LEPIEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-n8nkIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pxzmYHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n8nkYHyEe6hrKdSu0ktQQ" name="LIOZNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n8nkoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaoIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n8nk4HyEe6hrKdSu0ktQQ" name="MYORY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n8nlIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaoYHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n9OoIHyEe6hrKdSu0ktQQ" name="ORSHA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n9OoYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaooHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n9OooHyEe6hrKdSu0ktQQ" name="PASTAVY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n9Oo4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyao4HyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n9OpIHyEe6hrKdSu0ktQQ" name="POLOTSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-n9OpYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyapIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n91sIHyEe6hrKdSu0ktQQ" name="RASONY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n91sYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyapYHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n91soHyEe6hrKdSu0ktQQ" name="SHARKAWSHCHYNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n91s4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyapoHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n-cwIHyEe6hrKdSu0ktQQ" name="SHUMILINA">
+            <specification xmi:type="uml:Expression" xmi:id="_-n-cwYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyap4HyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n-cwoHyEe6hrKdSu0ktQQ" name="SYANNO">
+            <specification xmi:type="uml:Expression" xmi:id="_-n-cw4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaqIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n-cxIHyEe6hrKdSu0ktQQ" name="TALACHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-n-cxYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaqYHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n_D0IHyEe6hrKdSu0ktQQ" name="USHACHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-n_D0YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaqoHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n_D0oHyEe6hrKdSu0ktQQ" name="VITEBSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-n_D04HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaq4HyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n_q4IHyEe6hrKdSu0ktQQ" name="VERKHNYADZVINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-n_q4YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyarIHyEe6hrKdSu0ktQQ" value="RegionEnum.VITEBSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n_q4oHyEe6hrKdSu0ktQQ" name="AKCIABRSKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-n_q44HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyarYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-n_q5IHyEe6hrKdSu0ktQQ" name="BRAHIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-n_q5YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyaroHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oAR8IHyEe6hrKdSu0ktQQ" name="BUDA_KASHALYOVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oAR8YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pyar4HyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oAR8oHyEe6hrKdSu0ktQQ" name="CHACHERSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oAR84HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBsIHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oA5AIHyEe6hrKdSu0ktQQ" name="DOBRUSH">
+            <specification xmi:type="uml:Expression" xmi:id="_-oA5AYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBsYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oA5AoHyEe6hrKdSu0ktQQ" name="GOMEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-oA5A4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBsoHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oA5BIHyEe6hrKdSu0ktQQ" name="KALINKAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oA5BYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBs4HyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oBgEIHyEe6hrKdSu0ktQQ" name="KARMA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oBgEYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBtIHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oBgEoHyEe6hrKdSu0ktQQ" name="KHOINIKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-oBgE4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBtYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oBgFIHyEe6hrKdSu0ktQQ" name="LYELCHYTSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oCHIIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBtoHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oCHIYHyEe6hrKdSu0ktQQ" name="LOYEW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oCHIoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBt4HyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oCHI4HyEe6hrKdSu0ktQQ" name="MAZYR">
+            <specification xmi:type="uml:Expression" xmi:id="_-oCuMIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBuIHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oCuMYHyEe6hrKdSu0ktQQ" name="NAROULIA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oCuMoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBuYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oDVQIHyEe6hrKdSu0ktQQ" name="PIETRYKAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oDVQYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBuoHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oDVQoHyEe6hrKdSu0ktQQ" name="RAHACHOW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oDVQ4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBu4HyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oD8UIHyEe6hrKdSu0ktQQ" name="RECHYTSA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oD8UYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBvIHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oD8UoHyEe6hrKdSu0ktQQ" name="SVIETLAHORSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oD8U4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBvYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oEjYIHyEe6hrKdSu0ktQQ" name="VIETKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oEjYYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBvoHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oEjYoHyEe6hrKdSu0ktQQ" name="YEL_SK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oEjY4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzBv4HyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oEjZIHyEe6hrKdSu0ktQQ" name="ZHLOBIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oFKcIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzowIHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oFKcYHyEe6hrKdSu0ktQQ" name="ZHYTKAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oFKcoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzowYHyEe6hrKdSu0ktQQ" value="RegionEnum.GOMEL_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oFxgIHyEe6hrKdSu0ktQQ" name="ASHMYANY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oFxgYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzowoHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oFxgoHyEe6hrKdSu0ktQQ" name="ASTRAVYETS">
+            <specification xmi:type="uml:Expression" xmi:id="_-oFxg4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzow4HyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oGYkIHyEe6hrKdSu0ktQQ" name="BYERASTAVITSA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oGYkYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzoxIHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oG_oIHyEe6hrKdSu0ktQQ" name="DZYATLAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oG_oYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzoxYHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oG_ooHyEe6hrKdSu0ktQQ" name="GRODNO">
+            <specification xmi:type="uml:Expression" xmi:id="_-oG_o4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzoxoHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oHmsIHyEe6hrKdSu0ktQQ" name="IWYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-oHmsYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzox4HyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oHmsoHyEe6hrKdSu0ktQQ" name="KARELICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oHms4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzoyIHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oINwIHyEe6hrKdSu0ktQQ" name="LIDA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oINwYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-pzoyYHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oINwoHyEe6hrKdSu0ktQQ" name="MASTY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oINw4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P0IHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oI00IHyEe6hrKdSu0ktQQ" name="NAVAHRUDAK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oI00YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P0YHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oI00oHyEe6hrKdSu0ktQQ" name="SHCHUCHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oI004HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P0oHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oJb4IHyEe6hrKdSu0ktQQ" name="SLONIM">
+            <specification xmi:type="uml:Expression" xmi:id="_-oJb4YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P04HyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oJb4oHyEe6hrKdSu0ktQQ" name="SMARHON">
+            <specification xmi:type="uml:Expression" xmi:id="_-oJb44HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P1IHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oKC8IHyEe6hrKdSu0ktQQ" name="SVISLACH">
+            <specification xmi:type="uml:Expression" xmi:id="_-oKC8YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P1YHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oKC8oHyEe6hrKdSu0ktQQ" name="VAWKAVYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oKC84HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P1oHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oKqAIHyEe6hrKdSu0ktQQ" name="VORANAVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oKqAYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P14HyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oKqAoHyEe6hrKdSu0ktQQ" name="ZELVA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oKqA4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P2IHyEe6hrKdSu0ktQQ" value="RegionEnum.GRODNO_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oLREIHyEe6hrKdSu0ktQQ" name="BARYSAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oLREYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P2YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oLREoHyEe6hrKdSu0ktQQ" name="BYERAZINO">
+            <specification xmi:type="uml:Expression" xmi:id="_-oLRE4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0P2oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oL4IIHyEe6hrKdSu0ktQQ" name="CHERVYEN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oL4IYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p024IHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oL4IoHyEe6hrKdSu0ktQQ" name="DZYARZHYNSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oL4I4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p024YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oMfMIHyEe6hrKdSu0ktQQ" name="KAPYL">
+            <specification xmi:type="uml:Expression" xmi:id="_-oMfMYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p024oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oMfMoHyEe6hrKdSu0ktQQ" name="KLETSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oMfM4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0244HyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oNGQIHyEe6hrKdSu0ktQQ" name="KRUPKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-oNGQYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p025IHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oNGQoHyEe6hrKdSu0ktQQ" name="LAHOYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oNGQ4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p025YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oNtUIHyEe6hrKdSu0ktQQ" name="LYUBAN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oNtUYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p025oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oNtUoHyEe6hrKdSu0ktQQ" name="MALADZYECHNA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oNtU4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0254HyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oOUYIHyEe6hrKdSu0ktQQ" name="MINSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oOUYYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p026IHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oOUYoHyEe6hrKdSu0ktQQ" name="MYADZYEL">
+            <specification xmi:type="uml:Expression" xmi:id="_-oOUY4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p026YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oOUZIHyEe6hrKdSu0ktQQ" name="NESVIZH">
+            <specification xmi:type="uml:Expression" xmi:id="_-oO7cIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p026oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oO7cYHyEe6hrKdSu0ktQQ" name="PUCHAVIČY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oO7coHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p0264HyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oPigIHyEe6hrKdSu0ktQQ" name="SALIHORSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oPigYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d8IHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oPigoHyEe6hrKdSu0ktQQ" name="SLUTSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oPig4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d8YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oQJkIHyEe6hrKdSu0ktQQ" name="SMALYAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oQJkYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d8oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oQwoIHyEe6hrKdSu0ktQQ" name="STARYYA_DAROHI">
+            <specification xmi:type="uml:Expression" xmi:id="_-oQwoYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d84HyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oQwooHyEe6hrKdSu0ktQQ" name="STOWBTSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oRXsIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d9IHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oRXsYHyEe6hrKdSu0ktQQ" name="UZDA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oRXsoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d9YHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oR-wIHyEe6hrKdSu0ktQQ" name="VALOZHYN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oR-wYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d9oHyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oSl0IHyEe6hrKdSu0ktQQ" name="VILEYKA">
+            <specification xmi:type="uml:Expression" xmi:id="_-oSl0YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d94HyEe6hrKdSu0ktQQ" value="RegionEnum.MINSK_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oSl0oHyEe6hrKdSu0ktQQ" name="ASIPOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oSl04HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d-IHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oTM4IHyEe6hrKdSu0ktQQ" name="BABRUYSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oTM4YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d-YHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oTM4oHyEe6hrKdSu0ktQQ" name="BYALYNICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oTz8IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d-oHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oTz8YHyEe6hrKdSu0ktQQ" name="BYKHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oTz8oHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p1d-4HyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oUbAIHyEe6hrKdSu0ktQQ" name="CHAVUSY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oUbAYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FAIHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oVCEIHyEe6hrKdSu0ktQQ" name="CHERYKAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oVCEYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FAYHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oVCEoHyEe6hrKdSu0ktQQ" name="DRYBIN">
+            <specification xmi:type="uml:Expression" xmi:id="_-oVCE4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FAoHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oWQMIHyEe6hrKdSu0ktQQ" name="HLUSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oW3QIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FA4HyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oW3QYHyEe6hrKdSu0ktQQ" name="HORKI">
+            <specification xmi:type="uml:Expression" xmi:id="_-oXeUIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FBIHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oXeUYHyEe6hrKdSu0ktQQ" name="KASTSYUKOVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oXeUoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FBYHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oXeU4HyEe6hrKdSu0ktQQ" name="KHOTSIMSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oXeVIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FBoHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oYFYIHyEe6hrKdSu0ktQQ" name="KIRAWSK">
+            <specification xmi:type="uml:Expression" xmi:id="_-oYFYYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FB4HyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oYscIHyEe6hrKdSu0ktQQ" name="KLICHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oYscYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FCIHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oYscoHyEe6hrKdSu0ktQQ" name="KLIMAVICHY">
+            <specification xmi:type="uml:Expression" xmi:id="_-oYsc4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FCYHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oZTgIHyEe6hrKdSu0ktQQ" name="KRASNAPOLLE">
+            <specification xmi:type="uml:Expression" xmi:id="_-oZTgYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FCoHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oZTgoHyEe6hrKdSu0ktQQ" name="KRUHLAYE">
+            <specification xmi:type="uml:Expression" xmi:id="_-oZTg4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2FC4HyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oZ6kIHyEe6hrKdSu0ktQQ" name="KRYCHAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-oZ6kYHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sEIHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-oZ6koHyEe6hrKdSu0ktQQ" name="MOGILEV">
+            <specification xmi:type="uml:Expression" xmi:id="_-oZ6k4HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sEYHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-obIsIHyEe6hrKdSu0ktQQ" name="MSTSISLAW">
+            <specification xmi:type="uml:Expression" xmi:id="_-obvwIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sEoHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-obvwYHyEe6hrKdSu0ktQQ" name="SHKLOW">
+            <specification xmi:type="uml:Expression" xmi:id="_-ocW0IHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sE4HyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-ocW0YHyEe6hrKdSu0ktQQ" name="SLAWHARAD">
+            <specification xmi:type="uml:Expression" xmi:id="_-ocW0oHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sFIHyEe6hrKdSu0ktQQ" value="RegionEnum.MOGILEV_REGION"/>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_-omu4IHyEe6hrKdSu0ktQQ" name="RegionEnum">
+          <ownedAttribute xmi:id="_-pccYIHyEe6hrKdSu0ktQQ" name="center" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_-pdqgIHyEe6hrKdSu0ktQQ" name="square" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_-opyMIHyEe6hrKdSu0ktQQ" name="RegionEnum" visibility="private" method="_-pm0cIHyEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_-oqZQYHyEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_-oqZQoHyEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_-opyMYHyEe6hrKdSu0ktQQ" name="center">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_-oqZQIHyEe6hrKdSu0ktQQ" name="square">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_-oqZQ4HyEe6hrKdSu0ktQQ" type="_-omu4IHyEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-orAUIHyEe6hrKdSu0ktQQ" name="getCenter" method="_-pnbgIHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-orAUYHyEe6hrKdSu0ktQQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-ornYIHyEe6hrKdSu0ktQQ" name="setCenter" method="_-pnbgoHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-ornYYHyEe6hrKdSu0ktQQ" name="center">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-osOcIHyEe6hrKdSu0ktQQ" name="getSquare" method="_-pnbhIHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-osOcYHyEe6hrKdSu0ktQQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-os1gIHyEe6hrKdSu0ktQQ" name="setSquare" method="_-poCkYHyEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_-os1gYHyEe6hrKdSu0ktQQ" name="square">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedLiteral xmi:id="_-onV8IHyEe6hrKdSu0ktQQ" name="BREST_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-onV8YHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sFYHyEe6hrKdSu0ktQQ" value="&quot;Brest&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p2sFoHyEe6hrKdSu0ktQQ" value="32_790.68"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-onV8oHyEe6hrKdSu0ktQQ" name="VITEBSK_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-onV84HyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TIIHyEe6hrKdSu0ktQQ" value="&quot;Vitebsk&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TIYHyEe6hrKdSu0ktQQ" value="40_400.99"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-onV9IHyEe6hrKdSu0ktQQ" name="GOMEL_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-on9AIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TIoHyEe6hrKdSu0ktQQ" value="&quot;Gomel&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TI4HyEe6hrKdSu0ktQQ" value="40_361.66"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-on9AYHyEe6hrKdSu0ktQQ" name="GRODNO_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-on9AoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TJIHyEe6hrKdSu0ktQQ" value="&quot;Grodno&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TJYHyEe6hrKdSu0ktQQ" value="25_118.07"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-on9A4HyEe6hrKdSu0ktQQ" name="MINSK_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-on9BIHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TJoHyEe6hrKdSu0ktQQ" value="&quot;Minsk&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p3TJ4HyEe6hrKdSu0ktQQ" value="39_912.35"/>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_-on9BYHyEe6hrKdSu0ktQQ" name="MOGILEV_REGION">
+            <specification xmi:type="uml:Expression" xmi:id="_-on9BoHyEe6hrKdSu0ktQQ">
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p36MIHyEe6hrKdSu0ktQQ" value="&quot;Mogilev&quot;"/>
+              <operand xmi:type="uml:LiteralString" xmi:id="_-p36MYHyEe6hrKdSu0ktQQ" value="29_079.01"/>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GtUzQIHzEe6hrKdSu0ktQQ" name="City">
+          <ownedAttribute xmi:id="_Guoa0IHzEe6hrKdSu0ktQQ" name="cityName" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GupB4IHzEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ" isReadOnly="true"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Guw9sIHzEe6hrKdSu0ktQQ" name="City" specification="_GuQnYIHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_Guw9sYHzEe6hrKdSu0ktQQ" name="cityName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Guw9soHzEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_Guw9s4HzEe6hrKdSu0ktQQ" type="_GtUzQIHzEe6hrKdSu0ktQQ" direction="return"/>
+            <language>java</language>
+            <body>super();&#xD;
+		this.cityName = cityName;&#xD;
+		this.districtEnum = districtEnum;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GuQnYIHzEe6hrKdSu0ktQQ" name="City" method="_Guw9sIHzEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_GuROcIHzEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GuROcYHzEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GuQnYYHzEe6hrKdSu0ktQQ" name="cityName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GuQnYoHzEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_GuROcoHzEe6hrKdSu0ktQQ" type="_GtUzQIHzEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GtaS0IHzEe6hrKdSu0ktQQ" name="District">
+          <ownedAttribute xmi:id="_Gupo8IHzEe6hrKdSu0ktQQ" name="name" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gupo8YHzEe6hrKdSu0ktQQ" name="cities" type="_GtUzQIHzEe6hrKdSu0ktQQ" isReadOnly="true" association="_Gu9yAIHzEe6hrKdSu0ktQQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Gupo8oHzEe6hrKdSu0ktQQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Guq3EIHzEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ" isReadOnly="true"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Guyy4IHzEe6hrKdSu0ktQQ" name="District" specification="_GucNkIHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_Guyy4YHzEe6hrKdSu0ktQQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Guyy4oHzEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_Guyy44HzEe6hrKdSu0ktQQ" type="_GtaS0IHzEe6hrKdSu0ktQQ" direction="return"/>
+            <language>java</language>
+            <body>super();&#xD;
+		this.name = name;&#xD;
+		this.regionEnum = regionEnum;&#xD;
+		&#xD;
+		int countCity = CityEnum.values().length;&#xD;
+		this.cities = new City[countCity];		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GuzZ8IHzEe6hrKdSu0ktQQ" name="addCity" specification="_Guep0IHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_GuzZ8YHzEe6hrKdSu0ktQQ" name="city" type="_GtUzQIHzEe6hrKdSu0ktQQ"/>
+            <language>java</language>
+            <body>int i = 0;&#xD;
+		if(i &lt; cities.length) {&#xD;
+			cities[i++] = city;&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GucNkIHzEe6hrKdSu0ktQQ" name="District" method="_Guyy4IHzEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_Guc0oIHzEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Guc0oYHzEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GucNkYHzEe6hrKdSu0ktQQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GucNkoHzEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+            <ownedParameter xmi:id="_Guc0ooHzEe6hrKdSu0ktQQ" type="_GtaS0IHzEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Guep0IHzEe6hrKdSu0ktQQ" name="addCity" method="_GuzZ8IHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_GufQ4IHzEe6hrKdSu0ktQQ" name="city" type="_GtUzQIHzEe6hrKdSu0ktQQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GtekQIHzEe6hrKdSu0ktQQ" name="Government">
+          <ownedAttribute xmi:id="_GureIIHzEe6hrKdSu0ktQQ" name="NAME" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GureIYHzEe6hrKdSu0ktQQ" value="&quot;Belarus&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GusFMIHzEe6hrKdSu0ktQQ" name="regions" visibility="private" type="_Gti1sIHzEe6hrKdSu0ktQQ" association="_Gu_nMYHzEe6hrKdSu0ktQQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GusFMYHzEe6hrKdSu0ktQQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GutTUIHzEe6hrKdSu0ktQQ" name="regionCount" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gu0BAIHzEe6hrKdSu0ktQQ" name="Government" specification="_GtfyYIHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_Gu0BAYHzEe6hrKdSu0ktQQ" type="_GtekQIHzEe6hrKdSu0ktQQ" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>super();&#xD;
+		int countReg = RegionEnum.values().length;&#xD;
+		this.regions = new Region[countReg];&#xD;
+		this.regionCount = 0;&#xD;
+		initializeCountry();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gu0BAoHzEe6hrKdSu0ktQQ" name="initializeCountry" specification="_GthAgIHzEe6hrKdSu0ktQQ">
+            <language>java</language>
+            <body>for (RegionEnum regionEnum : RegionEnum.values()) {&#xD;
+			Region region = new Region(regionEnum.name(), regionEnum.getSquare(), regionEnum.getCenter());&#xD;
+			for (DistrictEnum districtEnum : DistrictEnum.values()) {&#xD;
+				if(districtEnum.getRegionEnum() == regionEnum) {&#xD;
+					District district = new District(districtEnum.name(), regionEnum);&#xD;
+					for (CityEnum cityEnum : CityEnum.values()) {&#xD;
+						if(cityEnum.getDistrictEnum() == districtEnum) {&#xD;
+							City city = new City(cityEnum.name(), districtEnum);&#xD;
+							district.addCity(city);&#xD;
+						}&#xD;
+					}&#xD;
+					City[] city = district.getCities();&#xD;
+					for (City city2 : city) {&#xD;
+						System.out.println(city2);&#xD;
+					}&#xD;
+					&#xD;
+					region.addDistrict(district);&#xD;
+				}&#xD;
+				&#xD;
+			}&#xD;
+			regions[regionCount++] = region;&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gu0BA4HzEe6hrKdSu0ktQQ" name="printRegionalCenters" specification="_GthAgYHzEe6hrKdSu0ktQQ">
+            <language>java</language>
+            <body>System.out.println(&quot;Regional centers:&quot;);&#xD;
+     for (int i = 0; i &lt; regionCount; i++) {&#xD;
+         System.out.println(regions[i].getName() + &quot;: &quot; + regions[i].getCenter());&#xD;
+     }&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GtfyYIHzEe6hrKdSu0ktQQ" name="Government" method="_Gu0BAIHzEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_GtgZcIHzEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GtgZcYHzEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GtgZcoHzEe6hrKdSu0ktQQ" type="_GtekQIHzEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GthAgIHzEe6hrKdSu0ktQQ" name="initializeCountry" visibility="private" method="_Gu0BAoHzEe6hrKdSu0ktQQ"/>
+          <ownedOperation xmi:id="_GthAgYHzEe6hrKdSu0ktQQ" name="printRegionalCenters" method="_Gu0BA4HzEe6hrKdSu0ktQQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gti1sIHzEe6hrKdSu0ktQQ" name="Region">
+          <ownedAttribute xmi:id="_Gut6YIHzEe6hrKdSu0ktQQ" name="name" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GuuhcIHzEe6hrKdSu0ktQQ" name="square" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GuuhcYHzEe6hrKdSu0ktQQ" name="center" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GuvIgIHzEe6hrKdSu0ktQQ" name="districts" type="_GtaS0IHzEe6hrKdSu0ktQQ" isReadOnly="true" association="_GvBcYIHzEe6hrKdSu0ktQQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GuvIgYHzEe6hrKdSu0ktQQ" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gu5gkIHzEe6hrKdSu0ktQQ" name="Region" specification="_GtkD0IHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_Gu5gkYHzEe6hrKdSu0ktQQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gu5gkoHzEe6hrKdSu0ktQQ" name="square">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gu5gk4HzEe6hrKdSu0ktQQ" name="center">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gu5glIHzEe6hrKdSu0ktQQ" type="_Gti1sIHzEe6hrKdSu0ktQQ" direction="return"/>
+            <language>java</language>
+            <body>super();&#xD;
+		this.name = name;&#xD;
+		this.square = square;&#xD;
+		this.center = center;&#xD;
+		&#xD;
+		int countDistrict = DistrictEnum.values().length;&#xD;
+		this.districts = new District[countDistrict];&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gu5glYHzEe6hrKdSu0ktQQ" name="addDistrict" specification="_GujiUIHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_Gu5gloHzEe6hrKdSu0ktQQ" name="district" type="_GtaS0IHzEe6hrKdSu0ktQQ"/>
+            <language>java</language>
+            <body>int i = 0;&#xD;
+     if (i &lt; districts.length) {&#xD;
+         districts[i++] = district;&#xD;
+     }&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GtkD0IHzEe6hrKdSu0ktQQ" name="Region" method="_Gu5gkIHzEe6hrKdSu0ktQQ">
+            <eAnnotations xmi:id="_Gtkq4YHzEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Gtkq4oHzEe6hrKdSu0ktQQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GtkD0YHzEe6hrKdSu0ktQQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GtkD0oHzEe6hrKdSu0ktQQ" name="square">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gtkq4IHzEe6hrKdSu0ktQQ" name="center">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gtkq44HzEe6hrKdSu0ktQQ" type="_Gti1sIHzEe6hrKdSu0ktQQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GujiUIHzEe6hrKdSu0ktQQ" name="addDistrict" method="_Gu5glYHzEe6hrKdSu0ktQQ">
+            <ownedParameter xmi:id="_GujiUYHzEe6hrKdSu0ktQQ" name="district" type="_GtaS0IHzEe6hrKdSu0ktQQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gu9yAIHzEe6hrKdSu0ktQQ" name="" memberEnd="_Gu-ZEIHzEe6hrKdSu0ktQQ _Gupo8YHzEe6hrKdSu0ktQQ">
+          <ownedEnd xmi:id="_Gu-ZEIHzEe6hrKdSu0ktQQ" name="" type="_GtaS0IHzEe6hrKdSu0ktQQ" association="_Gu9yAIHzEe6hrKdSu0ktQQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gu_nMYHzEe6hrKdSu0ktQQ" name="" memberEnd="_Gu_nMoHzEe6hrKdSu0ktQQ _GusFMIHzEe6hrKdSu0ktQQ">
+          <ownedEnd xmi:id="_Gu_nMoHzEe6hrKdSu0ktQQ" name="" type="_GtekQIHzEe6hrKdSu0ktQQ" association="_Gu_nMYHzEe6hrKdSu0ktQQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GvBcYIHzEe6hrKdSu0ktQQ" name="" memberEnd="_GvBcYYHzEe6hrKdSu0ktQQ _GuvIgIHzEe6hrKdSu0ktQQ">
+          <ownedEnd xmi:id="_GvBcYYHzEe6hrKdSu0ktQQ" name="" type="_Gti1sIHzEe6hrKdSu0ktQQ" association="_GvBcYIHzEe6hrKdSu0ktQQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Gs9m4IHzEe6hrKdSu0ktQQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Gs-N8IHzEe6hrKdSu0ktQQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GuU40IHzEe6hrKdSu0ktQQ" name="Arrays"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_-m6s0IHyEe6hrKdSu0ktQQ">
+      <eAnnotations xmi:id="_-m6s0YHyEe6hrKdSu0ktQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-pVHoIHyEe6hrKdSu0ktQQ" base_Element="_-pTScIHyEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-panMIHyEe6hrKdSu0ktQQ" base_Element="_-paAIIHyEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-pdDcIHyEe6hrKdSu0ktQQ" base_Element="_-pccYIHyEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-peRkIHyEe6hrKdSu0ktQQ" base_Element="_-pdqgIHyEe6hrKdSu0ktQQ"/>
+  <uml:OpaqueBehavior xmi:id="_-pgt0IHyEe6hrKdSu0ktQQ" name="CityEnum" specification="_-pFQAIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pgt0YHyEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+    <ownedParameter xmi:id="_-phU4IHyEe6hrKdSu0ktQQ" type="_-m6FwIHyEe6hrKdSu0ktQQ" direction="return"/>
+    <language>java</language>
+    <body>this.districtEnum = districtEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-ph78IHyEe6hrKdSu0ktQQ" name="getDistrictEnum" specification="_-nvMMIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-ph78YHyEe6hrKdSu0ktQQ" type="_-n2g8IHyEe6hrKdSu0ktQQ" direction="return"/>
+    <language>java</language>
+    <body>return districtEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-ph78oHyEe6hrKdSu0ktQQ" name="setDistrictEnum" specification="_-pF3EYHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pijAIHyEe6hrKdSu0ktQQ" name="districtEnum" type="_-n2g8IHyEe6hrKdSu0ktQQ"/>
+    <language>java</language>
+    <body>this.districtEnum = districtEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pkYMIHyEe6hrKdSu0ktQQ" name="DistrictEnum" specification="_-pJhcIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pk_QIHyEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+    <ownedParameter xmi:id="_-pk_QYHyEe6hrKdSu0ktQQ" type="_-n2g8IHyEe6hrKdSu0ktQQ" direction="return"/>
+    <language>java</language>
+    <body>this.regionEnum = regionEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pk_QoHyEe6hrKdSu0ktQQ" name="getRegionEnum" specification="_-oeMAIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pk_Q4HyEe6hrKdSu0ktQQ" type="_-omu4IHyEe6hrKdSu0ktQQ" direction="return"/>
+    <language>java</language>
+    <body>return regionEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pk_RIHyEe6hrKdSu0ktQQ" name="setRegionEnum" specification="_-pKvkIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-plmUIHyEe6hrKdSu0ktQQ" name="regionEnum" type="_-omu4IHyEe6hrKdSu0ktQQ"/>
+    <language>java</language>
+    <body>this.regionEnum = regionEnum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pm0cIHyEe6hrKdSu0ktQQ" name="RegionEnum" specification="_-opyMIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pm0cYHyEe6hrKdSu0ktQQ" name="center">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_-pm0coHyEe6hrKdSu0ktQQ" name="square">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_-pm0c4HyEe6hrKdSu0ktQQ" type="_-omu4IHyEe6hrKdSu0ktQQ" direction="return"/>
+    <language>java</language>
+    <body>this.center = center;&#xD;
+		this.square = square;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pnbgIHyEe6hrKdSu0ktQQ" name="getCenter" specification="_-orAUIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pnbgYHyEe6hrKdSu0ktQQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return center;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pnbgoHyEe6hrKdSu0ktQQ" name="setCenter" specification="_-ornYIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-pnbg4HyEe6hrKdSu0ktQQ" name="center">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.center = center;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-pnbhIHyEe6hrKdSu0ktQQ" name="getSquare" specification="_-osOcIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-poCkIHyEe6hrKdSu0ktQQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return square;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-poCkYHyEe6hrKdSu0ktQQ" name="setSquare" specification="_-os1gIHyEe6hrKdSu0ktQQ">
+    <ownedParameter xmi:id="_-poCkoHyEe6hrKdSu0ktQQ" name="square">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.square = square;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Patch xmi:id="_AcSTAIHzEe6hrKdSu0ktQQ" base_Element="_-m6FwIHyEe6hrKdSu0ktQQ" patchText="@@ -4212,16 +4212,48 @@&#xA; ICHAW);%0D&#xA;+%0A%09%0D%0A%09DistrictEnum districtEnum;%0D&#xA; %0A%0D%0A%09priv&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_AcUvQIHzEe6hrKdSu0ktQQ" base_Element="_-n2g8IHyEe6hrKdSu0ktQQ" patchText="@@ -4397,16 +4397,44 @@&#xA; EGION);%0D&#xA;+%0A%09%0D%0A%09RegionEnum regionEnum;%0D&#xA; %0A%0D%0A%09priv&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_AcV9YIHzEe6hrKdSu0ktQQ" base_Element="_-omu4IHyEe6hrKdSu0ktQQ" patchText="@@ -268,16 +268,52 @@&#xA; 01);%0D%0A%0D%0A&#xA;+%09String center;%0D%0A%09double square;%0D%0A%0D%0A&#xA; %09private&#xA;" conflicting="false"/>
+  <UMLLabProfile:Reference xmi:id="_Gua_cIHzEe6hrKdSu0ktQQ" base_Element="_GuU40IHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Array xmi:id="_GuqQAIHzEe6hrKdSu0ktQQ" base_Element="_Gupo8YHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Array xmi:id="_GusFMoHzEe6hrKdSu0ktQQ" dimensions="1" base_Element="_GusFMIHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GussQIHzEe6hrKdSu0ktQQ" base_Element="_GusFMIHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GutTUYHzEe6hrKdSu0ktQQ" base_Element="_GutTUIHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Array xmi:id="_GuvIgoHzEe6hrKdSu0ktQQ" base_Element="_GuvIgIHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Reference xmi:id="_Gu_nMIHzEe6hrKdSu0ktQQ" base_Element="_Gu9yAIHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Reference xmi:id="_GvA1UIHzEe6hrKdSu0ktQQ" base_Element="_Gu_nMYHzEe6hrKdSu0ktQQ"/>
+  <UMLLabProfile:Reference xmi:id="_GvCDcIHzEe6hrKdSu0ktQQ" base_Element="_GvBcYIHzEe6hrKdSu0ktQQ"/>
+</xmi:XMI>

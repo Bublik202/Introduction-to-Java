@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_XcwacIHyEe6hrKdSu0ktQQ">
+  <modelElement href="ClassesTask.uml#_XZz0IIHyEe6hrKdSu0ktQQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7AaqwIHzEe6hrKdSu0ktQQ" sourceAnchor="217.0,0.0" targetAnchor="217.0,116.0" target="_7AXAYIHzEe6hrKdSu0ktQQ" source="_7AdHAIHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_Gu9yAIHzEe6hrKdSu0ktQQ"/>
+    <stereotypes xmi:id="_7Ab44IHzEe6hrKdSu0ktQQ" name="Reference">
+      <modelElement href="ClassesTask.uml#_Gu_nMIHzEe6hrKdSu0ktQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7AbR0IHzEe6hrKdSu0ktQQ" text="">
+      <visualProperties xmi:id="_7CKXMIHzEe6hrKdSu0ktQQ" position="-42.5,22.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7AbR0YHzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="">
+      <modelElement href="ClassesTask.uml#_Gu-ZEIHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CJwIYHzEe6hrKdSu0ktQQ" position="2.5,-89.66666666666663"/>
+      <visibility xmi:id="_7Acf8YHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7Acf8IHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7AbR0oHzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="cities" navigable="true">
+      <modelElement href="ClassesTask.uml#_Gupo8YHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CKXMYHzEe6hrKdSu0ktQQ" position="-51.5,34.666666666666686"/>
+      <visibility xmi:id="_7Acf84HzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7Acf8oHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7Ah_gIHzEe6hrKdSu0ktQQ" sourceAnchor="112.0,0.0" targetAnchor="462.0,162.0" target="_7AoGIIHzEe6hrKdSu0ktQQ" source="_7Ah_iYHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_Gu_nMYHzEe6hrKdSu0ktQQ"/>
+    <stereotypes xmi:id="_7Ah_gYHzEe6hrKdSu0ktQQ" name="Reference">
+      <modelElement href="ClassesTask.uml#_GvA1UIHzEe6hrKdSu0ktQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7Ah_goHzEe6hrKdSu0ktQQ" text="">
+      <visualProperties xmi:id="_7CLlUIHzEe6hrKdSu0ktQQ" position="2.0,15.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7Ah_g4HzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="">
+      <modelElement href="ClassesTask.uml#_Gu_nMoHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CK-QIHzEe6hrKdSu0ktQQ" position="-18.0,-117.0"/>
+      <visibility xmi:id="_7Ah_hIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7Ah_hYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7Ah_hoHzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="regions" navigable="true">
+      <modelElement href="ClassesTask.uml#_GusFMIHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CLlUYHzEe6hrKdSu0ktQQ" position="2.0,31.0"/>
+      <visibility xmi:id="_7Ah_h4HzEe6hrKdSu0ktQQ" label="-"/>
+      <cardinality xmi:id="_7Ah_iIHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7Alp4IHzEe6hrKdSu0ktQQ" sourceAnchor="238.0,162.0" targetAnchor="451.0,69.0" target="_7AdHAIHzEe6hrKdSu0ktQQ" source="_7AoGIIHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_GvBcYIHzEe6hrKdSu0ktQQ"/>
+    <bendpoints xmi:id="_-fNs4IHzEe6hrKdSu0ktQQ" sourceY="197" targetX="325"/>
+    <stereotypes xmi:id="_7AmQ84HzEe6hrKdSu0ktQQ" name="Reference">
+      <modelElement href="ClassesTask.uml#_GvCDcIHzEe6hrKdSu0ktQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7AmQ8IHzEe6hrKdSu0ktQQ" text="">
+      <visualProperties xmi:id="_7CMzcIHzEe6hrKdSu0ktQQ" position="-182.75,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7AmQ8YHzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="">
+      <modelElement href="ClassesTask.uml#_GvBcYYHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CMMYIHzEe6hrKdSu0ktQQ" position="-17.5,36.125"/>
+      <visibility xmi:id="_7AnfEYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AnfEIHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7AmQ8oHzEe6hrKdSu0ktQQ" aggregationKind="NONE" name="districts" navigable="true">
+      <modelElement href="ClassesTask.uml#_GuvIgIHzEe6hrKdSu0ktQQ"/>
+      <visualProperties xmi:id="_7CNagIHzEe6hrKdSu0ktQQ" position="52.299999999999955,-56.5"/>
+      <visibility xmi:id="_7AnfE4HzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AnfEoHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7AXAYIHzEe6hrKdSu0ktQQ" name="City" associationsIn="_7AaqwIHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_GtUzQIHzEe6hrKdSu0ktQQ"/>
+    <visualProperties xmi:id="_7AXAYYHzEe6hrKdSu0ktQQ" position="119.0,62.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7AXAYoHzEe6hrKdSu0ktQQ" label="+"/>
+    <attributes xmi:id="_7AXAY4HzEe6hrKdSu0ktQQ" name="cityName">
+      <modelElement href="ClassesTask.uml#_Guoa0IHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AXAZIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AXAZYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AXAZoHzEe6hrKdSu0ktQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AXAZ4HzEe6hrKdSu0ktQQ" name="districtEnum">
+      <modelElement href="ClassesTask.uml#_GupB4IHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AXAaIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AXAaYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AXAaoHzEe6hrKdSu0ktQQ" name="DistrictEnum">
+        <modelElement href="ClassesTask.uml#_-n2g8IHyEe6hrKdSu0ktQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7AXAa4HzEe6hrKdSu0ktQQ" name="City">
+      <modelElement href="ClassesTask.uml#_GuQnYIHzEe6hrKdSu0ktQQ"/>
+      <keywords xmi:id="_7AXAbIHzEe6hrKdSu0ktQQ" keyword="create"/>
+      <visibility xmi:id="_7AXAbYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AXAboHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7AXAb4HzEe6hrKdSu0ktQQ">
+        <modelElement href="ClassesTask.uml#_GuROcoHzEe6hrKdSu0ktQQ"/>
+        <type xmi:id="_7AXAcIHzEe6hrKdSu0ktQQ" name="City">
+          <modelElement href="ClassesTask.uml#_GtUzQIHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_7AXAcYHzEe6hrKdSu0ktQQ" name="cityName">
+        <modelElement href="ClassesTask.uml#_GuQnYYHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AXAcoHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AXAc4HzEe6hrKdSu0ktQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_7AXAdIHzEe6hrKdSu0ktQQ" name="districtEnum">
+        <modelElement href="ClassesTask.uml#_GuQnYoHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AXAdYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AXAdoHzEe6hrKdSu0ktQQ" name="DistrictEnum">
+          <modelElement href="ClassesTask.uml#_-n2g8IHyEe6hrKdSu0ktQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7AoGIIHzEe6hrKdSu0ktQQ" name="Region" associationsIn="_7Ah_gIHzEe6hrKdSu0ktQQ" associationsOut="_7Alp4IHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_Gti1sIHzEe6hrKdSu0ktQQ"/>
+    <visualProperties xmi:id="_7AoGIYHzEe6hrKdSu0ktQQ" position="657.0,46.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7AoGIoHzEe6hrKdSu0ktQQ" label="+"/>
+    <attributes xmi:id="_7AoGI4HzEe6hrKdSu0ktQQ" name="name">
+      <modelElement href="ClassesTask.uml#_Gut6YIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AoGJIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGJYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AoGJoHzEe6hrKdSu0ktQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AoGJ4HzEe6hrKdSu0ktQQ" name="square">
+      <modelElement href="ClassesTask.uml#_GuuhcIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AoGKIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGKYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AoGKoHzEe6hrKdSu0ktQQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AoGK4HzEe6hrKdSu0ktQQ" name="center">
+      <modelElement href="ClassesTask.uml#_GuuhcYHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AoGLIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGLYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AoGLoHzEe6hrKdSu0ktQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AoGL4HzEe6hrKdSu0ktQQ" name="districts">
+      <modelElement href="ClassesTask.uml#_GuvIgIHzEe6hrKdSu0ktQQ"/>
+      <stereotypes xmi:id="_7AoGMIHzEe6hrKdSu0ktQQ" name="Array">
+        <modelElement href="ClassesTask.uml#_GuvIgoHzEe6hrKdSu0ktQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7AoGMYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGMoHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_7AoGM4HzEe6hrKdSu0ktQQ" name="District">
+        <modelElement href="ClassesTask.uml#_GtaS0IHzEe6hrKdSu0ktQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7AoGNIHzEe6hrKdSu0ktQQ" name="Region">
+      <modelElement href="ClassesTask.uml#_GtkD0IHzEe6hrKdSu0ktQQ"/>
+      <keywords xmi:id="_7AoGNYHzEe6hrKdSu0ktQQ" keyword="create"/>
+      <visibility xmi:id="_7AoGNoHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGN4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7AoGOIHzEe6hrKdSu0ktQQ">
+        <modelElement href="ClassesTask.uml#_Gtkq44HzEe6hrKdSu0ktQQ"/>
+        <type xmi:id="_7AoGOYHzEe6hrKdSu0ktQQ" name="Region">
+          <modelElement href="ClassesTask.uml#_Gti1sIHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_7AoGOoHzEe6hrKdSu0ktQQ" name="name">
+        <modelElement href="ClassesTask.uml#_GtkD0YHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AoGO4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AoGPIHzEe6hrKdSu0ktQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_7AoGPYHzEe6hrKdSu0ktQQ" name="square">
+        <modelElement href="ClassesTask.uml#_GtkD0oHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AoGPoHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AoGP4HzEe6hrKdSu0ktQQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_7AoGQIHzEe6hrKdSu0ktQQ" name="center">
+        <modelElement href="ClassesTask.uml#_Gtkq4IHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AoGQYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AoGQoHzEe6hrKdSu0ktQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_7AoGQ4HzEe6hrKdSu0ktQQ" name="addDistrict">
+      <modelElement href="ClassesTask.uml#_GujiUIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AoGRIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AoGRYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7AoGRoHzEe6hrKdSu0ktQQ" name="district">
+        <modelElement href="ClassesTask.uml#_GujiUYHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AoGR4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AoGSIHzEe6hrKdSu0ktQQ" name="District">
+          <modelElement href="ClassesTask.uml#_GtaS0IHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7Ah_iYHzEe6hrKdSu0ktQQ" name="Government" associationsOut="_7Ah_gIHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_GtekQIHzEe6hrKdSu0ktQQ"/>
+    <visualProperties xmi:id="_7Ah_ioHzEe6hrKdSu0ktQQ" position="1007.0,356.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7Ah_i4HzEe6hrKdSu0ktQQ" label="+"/>
+    <attributes xmi:id="_7Ah_jIHzEe6hrKdSu0ktQQ" defaultValue="&quot;Belarus&quot;" name="NAME" staticAttribute="true">
+      <modelElement href="ClassesTask.uml#_GureIIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7Ah_jYHzEe6hrKdSu0ktQQ" label="-"/>
+      <cardinality xmi:id="_7Ah_joHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Ah_j4HzEe6hrKdSu0ktQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Ah_kIHzEe6hrKdSu0ktQQ" name="regions">
+      <modelElement href="ClassesTask.uml#_GusFMIHzEe6hrKdSu0ktQQ"/>
+      <stereotypes xmi:id="_7Ah_kYHzEe6hrKdSu0ktQQ" name="Array">
+        <modelElement href="ClassesTask.uml#_GusFMoHzEe6hrKdSu0ktQQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_7Ah_koHzEe6hrKdSu0ktQQ" name="LegacyStyledElement">
+        <modelElement href="ClassesTask.uml#_GussQIHzEe6hrKdSu0ktQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Ah_k4HzEe6hrKdSu0ktQQ" label="-"/>
+      <cardinality xmi:id="_7Ah_lIHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_7Ah_lYHzEe6hrKdSu0ktQQ" name="Region">
+        <modelElement href="ClassesTask.uml#_Gti1sIHzEe6hrKdSu0ktQQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Ah_loHzEe6hrKdSu0ktQQ" name="regionCount">
+      <modelElement href="ClassesTask.uml#_GutTUIHzEe6hrKdSu0ktQQ"/>
+      <stereotypes xmi:id="_7Ah_l4HzEe6hrKdSu0ktQQ" name="LegacyStyledElement">
+        <modelElement href="ClassesTask.uml#_GutTUYHzEe6hrKdSu0ktQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Ah_mIHzEe6hrKdSu0ktQQ" label="-"/>
+      <cardinality xmi:id="_7Ah_mYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Ah_moHzEe6hrKdSu0ktQQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7Ah_m4HzEe6hrKdSu0ktQQ" name="Government">
+      <modelElement href="ClassesTask.uml#_GtfyYIHzEe6hrKdSu0ktQQ"/>
+      <keywords xmi:id="_7Ah_nIHzEe6hrKdSu0ktQQ" keyword="create"/>
+      <visibility xmi:id="_7Ah_nYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7Ah_noHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7Ah_n4HzEe6hrKdSu0ktQQ">
+        <modelElement href="ClassesTask.uml#_GtgZcoHzEe6hrKdSu0ktQQ"/>
+        <type xmi:id="_7Ah_oIHzEe6hrKdSu0ktQQ" name="Government">
+          <modelElement href="ClassesTask.uml#_GtekQIHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_7Ah_oYHzEe6hrKdSu0ktQQ" name="initializeCountry">
+      <modelElement href="ClassesTask.uml#_GthAgIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7Ah_ooHzEe6hrKdSu0ktQQ" label="-"/>
+      <cardinality xmi:id="_7Ah_o4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_7Ah_pIHzEe6hrKdSu0ktQQ" name="printRegionalCenters">
+      <modelElement href="ClassesTask.uml#_GthAgYHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7Ah_pYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7Ah_poHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7AdHAIHzEe6hrKdSu0ktQQ" name="District" associationsIn="_7Alp4IHzEe6hrKdSu0ktQQ" associationsOut="_7AaqwIHzEe6hrKdSu0ktQQ">
+    <modelElement href="ClassesTask.uml#_GtaS0IHzEe6hrKdSu0ktQQ"/>
+    <visualProperties xmi:id="_7AdHAYHzEe6hrKdSu0ktQQ" position="119.0,336.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7AdHAoHzEe6hrKdSu0ktQQ" label="+"/>
+    <attributes xmi:id="_7AdHA4HzEe6hrKdSu0ktQQ" name="name">
+      <modelElement href="ClassesTask.uml#_Gupo8IHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AdHBIHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AdHBYHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AdHBoHzEe6hrKdSu0ktQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AdHB4HzEe6hrKdSu0ktQQ" name="cities">
+      <modelElement href="ClassesTask.uml#_Gupo8YHzEe6hrKdSu0ktQQ"/>
+      <stereotypes xmi:id="_7AdHCIHzEe6hrKdSu0ktQQ" name="Array">
+        <modelElement href="ClassesTask.uml#_GuqQAIHzEe6hrKdSu0ktQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7AdHCYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AdHCoHzEe6hrKdSu0ktQQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_7AdHC4HzEe6hrKdSu0ktQQ" name="City">
+        <modelElement href="ClassesTask.uml#_GtUzQIHzEe6hrKdSu0ktQQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7AdHDIHzEe6hrKdSu0ktQQ" name="regionEnum">
+      <modelElement href="ClassesTask.uml#_Guq3EIHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AdHDYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AdHDoHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7AdHD4HzEe6hrKdSu0ktQQ" name="RegionEnum">
+        <modelElement href="ClassesTask.uml#_-omu4IHyEe6hrKdSu0ktQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7AdHEIHzEe6hrKdSu0ktQQ" name="District">
+      <modelElement href="ClassesTask.uml#_GucNkIHzEe6hrKdSu0ktQQ"/>
+      <keywords xmi:id="_7AdHEYHzEe6hrKdSu0ktQQ" keyword="create"/>
+      <visibility xmi:id="_7AdHEoHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AdHE4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7AdHFIHzEe6hrKdSu0ktQQ">
+        <modelElement href="ClassesTask.uml#_Guc0ooHzEe6hrKdSu0ktQQ"/>
+        <type xmi:id="_7AdHFYHzEe6hrKdSu0ktQQ" name="District">
+          <modelElement href="ClassesTask.uml#_GtaS0IHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_7AdHFoHzEe6hrKdSu0ktQQ" name="name">
+        <modelElement href="ClassesTask.uml#_GucNkYHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AdHF4HzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AdHGIHzEe6hrKdSu0ktQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_7AdHGYHzEe6hrKdSu0ktQQ" name="regionEnum">
+        <modelElement href="ClassesTask.uml#_GucNkoHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AdHGoHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AdHG4HzEe6hrKdSu0ktQQ" name="RegionEnum">
+          <modelElement href="ClassesTask.uml#_-omu4IHyEe6hrKdSu0ktQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_7AdHHIHzEe6hrKdSu0ktQQ" name="addCity">
+      <modelElement href="ClassesTask.uml#_Guep0IHzEe6hrKdSu0ktQQ"/>
+      <visibility xmi:id="_7AdHHYHzEe6hrKdSu0ktQQ" label="+"/>
+      <cardinality xmi:id="_7AdHHoHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7AdHH4HzEe6hrKdSu0ktQQ" name="city">
+        <modelElement href="ClassesTask.uml#_GufQ4IHzEe6hrKdSu0ktQQ"/>
+        <cardinality xmi:id="_7AdHIIHzEe6hrKdSu0ktQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_7AdHIYHzEe6hrKdSu0ktQQ" name="City">
+          <modelElement href="ClassesTask.uml#_GtUzQIHzEe6hrKdSu0ktQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
